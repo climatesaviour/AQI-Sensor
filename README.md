@@ -1,4 +1,7 @@
 # AQI-Sensor
+
+We use MQ-135 gas sensor to the detect and report the ambient air quality. The data obtained by the sensor is displayed on a 16x2 LCD display.
+
 Make sure you have installed the "LiquidCrystal_I2C" library for controlling the LCD using I2C. You can install it from the Arduino Library Manager.
 
 In this code, we initialize the LCD using the I2C address 0x27 and the specified number of columns and rows. 
